@@ -8,6 +8,7 @@
 #------------------------------------------------------------#
 creator: MUtils
 version: 1.0.0
+test: "Test"
 #-----------------------------------------#
 #Common Translations           #
 #Translation keys that persist in every  #
@@ -85,13 +86,13 @@ items:
       n: "<red>Desplazar a la izquierda"
       l: "No puedes desplazar<br>más a la izquierda"
     arrowRight:
-      n: "<green>Scroll Right"
-      l: "<blue>Click ≫ +1 page<br><blue>Sneak-Click ≫ +5 pages"
+      n: "<green>Desplazarse a la derecha"
+      l: "<blue>Click ≫ +1 página<br><blue>Sneak-Click ≫ +5 páginas"
     arrowLeft:
-      n: "<green>Scroll Left"
-      l: "<blue>Click ≫ -1 page<br><blue>Sneak-Click ≫ -5 pages"
+      n: "<green>Desplazarse a la izquierda"
+      l: "<blue>Click ≫ -1 página<br><blue>Sneak-Click ≫ -5 páginas"
     pageIndicator:
-      l: "Click to open a compact<br>GUI with quick access"
+      l: "Haz clic para abrir una<br>GUI compacta de acceso rápido"
   design:
     n: "Diseño de Timer"
     l: "Customize your timer design<br>from simple colorizing to<br>complex animations and texts"
