@@ -8,6 +8,7 @@
 #------------------------------------------------------------#
 creator: MUtils
 version: 1.0.0
+test: "Test"
 #-----------------------------------------#
 #Common Translations           #
 #Translation keys that persist in every  #
