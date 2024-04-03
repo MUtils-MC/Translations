@@ -215,13 +215,13 @@ items:
       n: "InTime Challenge"
       l: "Jede Entität hat eine begrenzte Zeit,<br> um zu leben. Du auch! Töte Mobs zum<br>stehlen deren Zeit"
     MOB_BLOCKS:
-      n: "Mob Blocks Randomizer"
+      n: "Mob Block Randomizer"
       l: "Jeder Block enthält einen zufälligen Mob.<br>Zerbreche den Block um ihn freizugeben und<br>nur nach dem Töten fällt der Gegenstand"
     CHECKPOINTS:
       n: "Zeitreise Challenge"
       l: "Erstelle Kontrollpunkte (F), um<br>zurück in der Zeit zu reisen! Aber sei gewarnt... <br>Zeitreisen ist gefährlich"
     DIM_SWAP:
-      n: "Dimension Swap Challenge"
+      n: "Getauschte Dimensionen Challenge"
       l: "Alle Portale sind gemischt! Jetzt musst du<br>gegen den Enderdrachen kämpfen...<br>in der Hauptwelt?<br>Hölle -> Ende -> Hauptwelt"
     SNAKE:
       n: "Snake Challenge"
@@ -347,7 +347,7 @@ items:
       n: "Bereich Timer"
       l: "Ausgewählte Bereiche wie Biome,<br>Chunks, Welten, oder auch Höhen<br>können nur begrenzt lange aufgesucht<br> werden. Spiele schnell!"
     COLLECT_BATTLE:
-      n: "Collect Battle"
+      n: "Sammelkampf"
       l: "Spiele gegen alle anderen Spieler<br>in diesem Runden basierten Modus!<br>Zuerst sammelst du ein Item so schnell wie möglich.<br>In der zweiten Phase muss ein anderer<br>zufälliger Spieler dieses Item schneller sammeln!<br>Kannst du trotzdem MC durchspielen?"
     RANDOMIZER_CHESTS:
       n: "Loot Randomizer"
