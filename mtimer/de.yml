@@ -50,7 +50,7 @@ event:
   active: "Aktiv"
   disabled: "Inaktiv"
   prefix: "Präfix"
-  suffix: "Suffix"
+  suffix: "Endung"
   animation: "Animationsgeschw."
   syntax: "Syntax"
   forcedTwoDigits: "Immer 2 Zeichen"
