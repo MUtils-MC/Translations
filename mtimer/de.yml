@@ -8,6 +8,7 @@
 #------------------------------------------------------------#
 creator: MUtils
 version: 1.0.0
+test: "Test"
 #-----------------------------------------#
 #Common Translations           #
 #Translation keys that persist in every  #
@@ -19,7 +20,7 @@ common:
   left: "Links"
   right: "Rechts"
   click: "Klick"
-  sneak: "Sneak"
+  sneak: "Schleichen"
   none: "Leer"
   button: "Knopf"
 #-----------------------------------------#
@@ -49,7 +50,7 @@ event:
   active: "Aktiv"
   disabled: "Inaktiv"
   prefix: "Präfix"
-  suffix: "Suffix"
+  suffix: "Endung"
   animation: "Animationsgeschw."
   syntax: "Syntax"
   forcedTwoDigits: "Immer 2 Zeichen"

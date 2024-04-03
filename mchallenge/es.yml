@@ -158,7 +158,7 @@ items:
       n: "History"
       l: "Quick access your last played<br>challenges. History is saved from<br>new to old."
     settings:
-      n: "Settings"
+      n: "Ajustes"
   settings:
     language:
       n: "Language"
