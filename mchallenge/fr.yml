@@ -57,13 +57,15 @@ command:
     hide: "<grey>Vous êtes maintenant <red>caché"
     show: "<grey>Vous êtes maintenant <green>visible"
     hideMultiple: "<grey>Vous avez <red>caché</red> <input-1> joueur/s"
-    showMultiple: "<grey>Vous avez <green>montré</green> <input-2> joueur/s"
+    showMultiple: "<grey>You have <green>shown</green> <input-1> player/s"
   debug: "<grey>Le mode de débogage est passé à <blue><input-1>"
   lang:
     success: "<grey>Le changement de langue a été effectué avec succès <green><input-1>"
     fail: "<grey>Échec du changement de langue <red><input-1></red>! Regardez dans la console pour obtenir plus d'informations"
   noAddons: "<red>Aucun addon MChallenge n'est installé ! Vous pouvez trouver des addons sur\n<click:open_url:'https://mutils.de/ch/addons'><u>mutils.net/ch/addons</u></click>"
   notLoggedIn: "Connect your MUtils Account to unlock Premium Features"
+  updateRule: "The rule <input-1> was updated to <input-2>"
+  noRule: "<red>Please select a valid rule to change!"
 #-----------------------------------------#
 #Events                  #
 #Messages that occur on multiple places  #
@@ -133,6 +135,10 @@ event:
     nextPlayer: "Current Damager: "
   tickRate:
     gameSpeed: "Game Speed"
+  vampire:
+    bloodPack: "Blood Pack"
+  mirror:
+    damage: "<blue><input-1></blue> received <blue><input-2> ♥</blue> damage <dark_gray>(<input-3>)"
 #-----------------------------------------#
 #Items                  #
 #Messages only visible on GUI items    #
