@@ -57,7 +57,7 @@ command:
     hide: "<grey>Du bist jetzt <red>versteckt"
     show: "<grey>Du bist jetzt <green>sichtbar"
     hideMultiple: "<grey>Du hast <input-1> Spieler <red>versteckt"
-    showMultiple: "<grey>You have <green>shown</green> <input-1> player/s"
+    showMultiple: "<grey>Du hast <input-1> Spieler <green>sichtbar</green> gemacht"
   debug: "<grey>Debug Modus zu <blue><input-1></blue> gewechselt"
   lang:
     success: "<grey>Erfolgreich die Sprache auf <green><input-1></green> gewechselt"
@@ -136,9 +136,9 @@ event:
   tickRate:
     gameSpeed: "Spielgeschwindigkeit"
   vampire:
-    bloodPack: "Blood Pack"
+    bloodPack: "Blutpäckchen"
   mirror:
-    damage: "<blue><input-1></blue> received <blue><input-2> ♥</blue> damage <dark_gray>(<input-3>)"
+    damage: "<blue><input-1></blue> hat <blue><input-2> ♥</blue> Schaden <dark_gray>(<input-3>)</dark_gray> erhalten"
 #-----------------------------------------#
 #Items                  #
 #Messages only visible on GUI items    #
