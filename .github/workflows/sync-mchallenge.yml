@@ -26,3 +26,4 @@ jobs:
           user_email: 'miraculixxyt@gmail.com'
           user_name: 'MiraculixxT'
           commit_message: 'Sync all translations'
+          destination_branch: 'master'
