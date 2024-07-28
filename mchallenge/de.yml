@@ -7,7 +7,7 @@
 #i is a number from 0 to the message max            #
 #------------------------------------------------------------#
 creator: MUtils
-version: 113
+version: 0
 #-----------------------------------------#
 #Common Translations           #
 #Translation keys that persist in every  #
@@ -64,9 +64,9 @@ command:
     fail: "<grey>Sprachwechsel auf <red><input-1></red> ist fehlgeschlagen! Schaue in die Konsole für mehr Informationen"
   noAddons: "<red>Keine MChallenge-Addons installiert! Du findest Addons unter <click:open_url:'https://mutils.de/ch/addons'><u>mutils.net/ch/addons</u></click>"
   notLoggedIn: "Verbinde deinen MUtils Account um alle Premium Funktionen freizuschalten"
-  updateRule: "The rule <input-1> was updated to <input-2>"
-  noRule: "<red>Please select a valid rule to change!"
-  registered: "<grey>Challenge Command: <blue>/<input-1></blue>"
+  updateRule: "Die Regel <input-1> wurde zu <input-2> aktualisiert"
+  noRule: "<red>Bitte wählen Sie eine Regel, die gültig ist zum Aktualisieren!"
+  registered: "<grey>Challenge-Anweisung<blue>/<input-1></blue>"
 #-----------------------------------------#
 #Events                  #
 #Messages that occur on multiple places  #
@@ -88,16 +88,16 @@ event:
     forceHunt: "<red><input-1> hat das Ziel nicht erfüllt!"
     noDoubleKill: "<red><input-1> hat den gleichen Mob zweimal hintereinander getötet!"
     hitOrder: "<red><input-1> wurde nicht erlaubt einen Mob zu schlagen"
-    crushedAnvils: "<red><input-1> was hit by an anvil!"
-    mlg: "<red><input-1> failed the MLG!"
+    crushedAnvils: "<red><input-1> wurde von einem Amboss getroffen!"
+    mlg: "<red><input-1> hat den MLG verfehlt!"
   mob_hunt:
-    collect: "<green><input-1> found <input-2>!"
-    success: "<green>Congratulations! You found all mobs"
+    collect: "<green><input-1> gefunden <input-2>!"
+    success: "<green>Glückwunsch! Sie haben alle Mobs gefunden"
   item_hunt:
-    collect: "<green><input-1> collected <input-2>!"
-    success: "<green>Congratulations! You found all <input-1> items"
+    collect: "<green><input-1> hat <input-2> gesammelt!"
+    success: "<green>Glückwunsch! Sie haben alle <input-1> items gefunden"
   death_hunt:
-    collect: "<green><input-1> died to <input-2>!"
+    collect: "<green><input-1> ist an <input-2> gestorben!"
     success: "<green>Congratulations! You died to all <input-1> deaths"
   itemDecay:
     time: "Verschwindet in"
