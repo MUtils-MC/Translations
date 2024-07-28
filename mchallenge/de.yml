@@ -98,7 +98,7 @@ event:
     success: "<green>Glückwunsch! Sie haben alle <input-1> items gefunden"
   death_hunt:
     collect: "<green><input-1> ist an <input-2> gestorben!"
-    success: "<green>Congratulations! You died to all <input-1> deaths"
+    success: "<green>Glückwunsch! Sie sind an allen <input-1> Tode gestorben"
   itemDecay:
     time: "Verschwindet in"
     paused: "Anzeige pausiert (ausgewählt)"
@@ -146,11 +146,11 @@ event:
   mirror:
     damage: "<blue><input-1></blue> hat <blue><input-2> ♥</blue> Schaden <dark_gray>(<input-3>)</dark_gray> erhalten"
   hpDrain:
-    current: "Current Health ⇒ <blue><input-1></blue>"
-    next: "Next health draining in <blue><input-1></blue> <dark_gray>(<input-2>%)"
-  enable-flight: "<red>This Challenge requires to allow flight in your <u>server.properties</u>! Otherwise players will be kicked spontaneously for flying."
+    current: "Aktuelle Gesundheit ⇒ <blue><input-1></blue>"
+    next: "Nächster Gesundheitsabfluss in <blue><input-1></blue> <dark_gray>(<input-2>%)"
+  enable-flight: "<red>Diese Challenge muss \"allow flight\" in deinen <u>server.properties</u> aktiviert haben! Ansonsten werden Spieler durchgehend wegen fliegen gekickt."
   experimental:
-    missing: "<red>Missing experimental features <u><input-1></u>! <click:run_command:'/experimental-features enable <input-1>'>Click here to enable it (requires rejoin)</click>"
+    missing: "<red>Fehlende experimentelle Funktionen <u><input-1></u>! <click:run_command:'/experimental-features enable <input-1>'>Klicken Sie hier, um es zu aktivieren (erfordert ein Re-Connect)</click>"
 #-----------------------------------------#
 #Items                  #
 #Messages only visible on GUI items    #
@@ -179,8 +179,8 @@ items:
       n: "Einstellungen"
   settings:
     language:
-      n: "Default Language"
-      l: "Most message will automatically adapt to<br>your Minecraft language. If your language<br>is not supported or on global messages<br>this fallback language is used"
+      n: "Standardsprache"
+      l: "Die meisten Nachrichten passen sich automatisch an deine Minecraft-Sprache<br>an. Wenn Ihre Sprache<br>nicht unterstützt wird oder in globalen Nachrichten<br>wird diese Fallbacksprache verwendet"
       s: "Aktuell: "
     compact:
       n: "Challenge-Anzeige"
@@ -401,29 +401,29 @@ items:
       n: "Rhythm Craft"
       l: "Verwandel Minecraft in ein Rhythmspiel!<br>Jede Aktion muss auf den Beat geschehen<br>um dem Weltrhythmus zu folgen"
     HP_DRAIN:
-      n: "Health Drainer"
-      l: "Every few minutes your max health will be<br>reduced by a given percentage.<br>Better be quick!"
+      n: "Gesundheitsdrainer"
+      l: "Alle paar Minuten wird deine maximale Gesundheit<br>um einen bestimmten Prozentsatz reduziert.<br>Sei besser schnell!"
     DEATH_HUNT:
-      n: "Death Hunt"
-      l: "Die to all given deaths in a specific order<br>to finish!<br>Use /deathhunt to modify"
+      n: "Todesjagd"
+      l: "Sterbe zu allen vorgegeben Tode, die in einer bestimmten Reihenfolge<br>sind, um zu bestehen!<br>Nutze /deathhunt um zu ändern"
     MLG:
       n: "MLG Challenge"
-      l: "Once a while you are forced to perform<br>a random MLG! Can you survive the fall?"
+      l: "Sobald du gezwungen bist<br>einen zufälligen MLG auszuführen! Kannst du den Fall überleben?"
     STACK_LIMIT:
-      n: "Onestack (Stack limit)"
-      l: "You can only hold one item on each slot<br>in your inventory!<br>Can be modified up to 99 items"
+      n: "Onestack (Stacklimit)"
+      l: "Du kannst nur ein Item auf jedem Platz<br>in deinem Inventar halten!<br>Es kann bis zu 99 Items modifiziert werden"
   chS:
     FLY:
       power:
         n: "Kraft"
-        l: "Flying boost and speed.<br>More speed results in more damage<br>on impact"
+        l: "Flugschub und -geschwindigkeit.<br>Mehr Geschwindigkeit verursacht mehr Schaden<br>beim Aufprall"
     IN_TIME:
       pTime:
         n: "Spielerzeit"
-        l: "Player starting time"
+        l: "Startzeit des Spielers"
       eTime:
         n: "Entity-Zeit"
-        l: "Entity starting time"
+        l: "Startzeit der Monster"
       hpTime:
         n: "Zeit pro HP"
         l: "Reduced time by each hp damage<br>a player receives from a mob"
