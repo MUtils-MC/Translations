@@ -426,40 +426,40 @@ items:
         l: "Startzeit der Monster"
       hpTime:
         n: "Zeit pro HP"
-        l: "Reduced time by each hp damage<br>a player receives from a mob"
+        l: "Reduzierte Zeit von jedem Hp-Schaden<br>der ein Spieler von einem Mob erhält"
     MOB_BLOCKS:
       rnd:
         n: "Zufällig"
-        l: "Enabled: Each action is random,<br>Disabled: Same block = same mob"
+        l: "Aktiviert: Jede Aktion ist zufällig,<br>Deaktiviert: gleicher Block = gleicher Mob"
     CHECKPOINTS:
       onlyTP:
         n: "Nur Position"
-        l: "Will not affect the world"
+        l: "Wird die Welt nicht beeinflussen"
     DIM_SWAP:
       starter:
         n: "Starter Spitzhacke"
-        l: "Each player starts with<br>an unbreakable wooden pickaxe"
+        l: "Jeder Spieler startet mit<br>einer unzerstörbaren Holzaxt"
     SNAKE:
       speed:
         n: "Tempo"
-        l: "Snake movement speed"
+        l: "Schlangenbewegungsgeschwindigkeit"
     GHOST:
       radius:
         n: "Radius"
         l: "Ghost vision radius"
       adventure:
         n: "Abenteuermodus"
-        l: "Can't break blocks in ghost mode"
+        l: "Du kannst keine Blöcke im Geistermodus zerstören"
       glide:
         n: "Geister Flug"
-        l: "Glide through ghost blocks<br>instead of only falling"
+        l: "Gleite durch Geisterblöcke<br>anstatt durchzufallen"
     NO_SAME_ITEM:
       lives:
         n: "Leben"
-        l: "Total lives. You loose<br>one for each same item"
+        l: "Gesamte Leben. Du verlierst<br>eins für jedes gleiche Item"
       sync:
         n: "Leben = HP"
-        l: "Sync the challenge lives to<br>your health lives"
+        l: "Synchronisiere die Herausforderung mit<br>deiner Gesundheit"
       info:
         n: "Ankündigungsmodus"
         l: "Receive notifications about<br>all new items, only live updates<br>or nothing at all"
