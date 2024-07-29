@@ -476,11 +476,11 @@ items:
     DAMAGE_DUELL:
       percent:
         n: "Prozent"
-        l: "The percentage of damage<br>that will be reflected"
+        l: "Hallo"
     ONE_BIOME:
       delay:
         n: "Verzögerung"
-        l: "The time between each<br>world swap"
+        l: " (Key): items.chS.ONE_BIOME.delay.l"
     BOOST_UP:
       radius:
         n: "Effekt Radius"
