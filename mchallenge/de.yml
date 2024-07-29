@@ -438,7 +438,7 @@ items:
     DIM_SWAP:
       starter:
         n: "Starter Spitzhacke"
-        l: "Jeder Spieler startet mit<br>einer unzerstörbaren Holzaxt"
+        l: "Jeder Spieler startet mit<br>einer unzerstörbaren Holzspitzhacke"
     SNAKE:
       speed:
         n: "Tempo"
@@ -462,17 +462,17 @@ items:
         l: "Synchronisiere die Herausforderung mit<br>deiner Gesundheit"
       info:
         n: "Ankündigungsmodus"
-        l: "Receive notifications about<br>all new items, only live updates<br>or nothing at all"
+        l: "Erhalte Benachrichtigungen über<br>alle neuen Artikel, nur Live-Updates<br>oder gar nichts"
     LIMITED_SKILLS:
       random:
         n: "Zufällige Rollen"
     RUN_RANDOMIZER:
       goal:
         n: "Blockziel"
-        l: "The amount of blocks needed<br>for a new item"
+        l: "Die Anzahl der Blöcke die benötigt wird<br>für einen neuen Gegenstand"
       global:
         n: "Globaler Timer"
-        l: "Moved blocks will be combined<br>from each player"
+        l: "Verschobene Blöcke werden<br>von jedem Spieler kombiniert"
     DAMAGE_DUELL:
       percent:
         n: "Prozent"
