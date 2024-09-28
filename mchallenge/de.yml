@@ -7,7 +7,7 @@
 #i is a number from 0 to the message max            #
 #------------------------------------------------------------#
 creator: MUtils
-version: 0
+version: 113
 #-----------------------------------------#
 #Common Translations           #
 #Translation keys that persist in every  #
@@ -89,7 +89,7 @@ event:
     noDoubleKill: "<red><input-1> hat den gleichen Mob zweimal hintereinander getötet!"
     hitOrder: "<red><input-1> wurde nicht erlaubt einen Mob zu schlagen"
     crushedAnvils: "<red><input-1> wurde von einem Amboss getroffen!"
-    mlg: "<red><input-1> hat den MLG verfehlt!"
+    mlg: "<red><input-1> hat den MLG nicht geschafft!"
   mob_hunt:
     collect: "<green><input-1> gefunden <input-2>!"
     success: "<green>Glückwunsch! Sie haben alle Mobs gefunden"
@@ -98,7 +98,7 @@ event:
     success: "<green>Glückwunsch! Sie haben alle <input-1> items gefunden"
   death_hunt:
     collect: "<green><input-1> ist an <input-2> gestorben!"
-    success: "<green>Glückwunsch! Sie sind an allen <input-1> Tode gestorben"
+    success: "<green>Glückwunsch! Sie sind an allen <input-1> Toden gestorben"
   itemDecay:
     time: "Verschwindet in"
     paused: "Anzeige pausiert (ausgewählt)"
@@ -405,10 +405,10 @@ items:
       l: "Alle paar Minuten wird deine maximale Gesundheit<br>um einen bestimmten Prozentsatz reduziert.<br>Sei besser schnell!"
     DEATH_HUNT:
       n: "Todesjagd"
-      l: "Sterbe zu allen vorgegeben Tode, die in einer bestimmten Reihenfolge<br>sind, um zu bestehen!<br>Nutze /deathhunt um zu ändern"
+      l: "Sterbe zu allen vorgegeben Tode, die in einer bestimmten Reihenfolge<br>sind, um zu bestehen!<br>Nutze /deathhunt um Modifikationen zu tätigen"
     MLG:
       n: "MLG Challenge"
-      l: "Sobald du gezwungen bist<br>einen zufälligen MLG auszuführen! Kannst du den Fall überleben?"
+      l: "Ab und an bist du gezwungen einen<br>zufälligen MLG auszuführen! <br> Kannst du den Fall überleben?"
     STACK_LIMIT:
       n: "Onestack (Stacklimit)"
       l: "Du kannst nur ein Item auf jedem Platz<br>in deinem Inventar halten!<br>Es kann bis zu 99 Items modifiziert werden"
@@ -446,7 +446,7 @@ items:
     GHOST:
       radius:
         n: "Radius"
-        l: "Ghost vision radius"
+        l: "Radius der Geistersicht"
       adventure:
         n: "Abenteuermodus"
         l: "Du kannst keine Blöcke im Geistermodus zerstören"
@@ -476,11 +476,11 @@ items:
     DAMAGE_DUELL:
       percent:
         n: "Prozent"
-        l: "Hallo"
+        l: "Der Prozentsatz des Schadens<br>, der reflektiert wird"
     ONE_BIOME:
       delay:
         n: "Verzögerung"
-        l: " (Key): items.chS.ONE_BIOME.delay.l"
+        l: "Die Zeit zwischen den<br>Welt-Swaps"
     BOOST_UP:
       radius:
         n: "Effekt Radius"
@@ -765,7 +765,7 @@ items:
     CHUNK_SYNC:
       env:
         n: "Gespiegelte Umgebung"
-        l: "Also mirror block updates<br>not triggered by players"
+        l: "Auch Spiegelblock-Updates die nicht<br> von Spielern ausgelöst wurden"
     DAMAGE_MULTIPLIER:
       multiplier:
         n: "Multiplikator"
@@ -797,7 +797,7 @@ items:
         l: "Wie viel Herzen bei jedem Intervall<br> abgezogen werden"
       interval:
         n: "Intervall"
-        l: "Timing for each health draining"
+        l: "Timing für jeden Schaden"
     MLG:
       delay:
         n: "Verzögerung"
