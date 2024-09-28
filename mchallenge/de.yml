@@ -521,7 +521,7 @@ items:
         n: "Komplett zufällig"
         l: "Enabled: Each action is random,<br>Disabled: Same mob = same drop"
       itemMode:
-        n: "Item Mode"
+        n: "Item-Modus"
         l: "Activate to randomize all items<br>except only mob drops"
     RANDOMIZER_BIOMES:
       random:
@@ -555,7 +555,7 @@ items:
     RANDOMIZER_DAMAGE:
       random:
         n: "Komplett zufällig"
-        l: "Enabled: Each action is random,<br>Disabled: Same damage = same shuffled damage"
+        l: "Aktiviert: Jede Aktion ist zufällig,<br>Deaktiviert: gleicher Block = gleicher Mob"
     NO_DOUBLE_KILL:
       global:
         n: "Globale Wirkung"
@@ -569,7 +569,7 @@ items:
         l: "Amount of damage"
       interval:
         n: "Intervall"
-        l: "Time between each damage tick<br>(Only affecting type INTERVAL)"
+        l: "Abstand zwischen jedem Schadensticks<br>(wirkt sich nur auf Typ INTERVAL aus)"
     RIVALS_COLLECT:
       mode:
         n: "Suchtyp"
@@ -582,7 +582,7 @@ items:
         n: "Mobs"
       joker:
         n: "Joker"
-        l: "Amount of joker to skip a task"
+        l: "Anzahl der Joker, um eine Aufgabe zu überspringen"
     ROCKET:
       capacity:
         n: "Treibstoffkapazität"
