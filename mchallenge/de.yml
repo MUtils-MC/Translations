@@ -486,55 +486,55 @@ items:
         n: "Effekt Radius"
       boost:
         n: "Boost Kraft"
-        l: "Mobs will fly higher on<br>higher power"
+        l: "Mobs fliegen höher mit<br>höherer Leistung"
       mode:
         n: "Nur Monster"
-        l: "Does not affect entities<br>like items, boats, ..."
+        l: "Hat keine Auswirkungen auf Kreaturen<br>wie Items, Boote, ..."
     CHUNK_BLOCK_BREAK:
       bundle:
         n: "Gebündelt"
-        l: "All dropped item will be<br>merged on the broken block<br>to reduce lag"
+        l: "Alle fallengelassenen Gegenstände werden auf dem<br>zerbrochenen Block aufgesammelt,<br> um die Verzögerung zu verringern."
     SNEAK_SPAWN:
       onlyMob:
         n: "Nur Monster"
-        l: "Does not spawn non living<br>entities like boats"
+        l: "Spawnt keine nicht lebende<br>Objekte wie Boote"
     GRAVITY:
       delay:
         n: "Verzögerung"
-        l: "Time of no custom gravity<br>between swaps"
+        l: "Zeit ohne benutzerdefinierte Schwerkraft<br>zwischen Swaps"
       duration:
         n: "Dauer"
-        l: "Time each custom gravity<br>stays before next swap"
+        l: "Zeit für jede benutzerdefinierte Schwerkraft<br> vor dem nächsten Swap"
     STAY_AWAY:
       distance:
         n: "Schadensdistanz"
-        l: "Radius of blocks that you<br>need to stay away"
+        l: "Radius der Blöcke, die du<br>entfernt bleiben musst"
       warning:
         n: "Warnschaden"
-        l: "Radius of blocks where you<br>will be warned before dying"
+        l: "Radius der Blöcke, in denen du<br>gewarnt wirst, bevor du stirbt"
     RANDOMIZER_BLOCK:
       random:
         n: "Komplett zufällig"
-        l: "Enabled: Each action is random,<br>Disabled: Same block = same item"
+        l: "Aktiviert: Jede Aktion ist zufällig,<br>Deaktiviert: selber Block = selbes Item"
     RANDOMIZER_ENTITY:
       random:
         n: "Komplett zufällig"
-        l: "Enabled: Each action is random,<br>Disabled: Same mob = same drop"
+        l: "Aktiviert: Jede Aktion ist zufällig,<br>Deaktiviert: gleiche Kreatur = gleicher Drop"
       itemMode:
         n: "Item-Modus"
-        l: "Activate to randomize all items<br>except only mob drops"
+        l: "Aktivieren, um alle Items zufällig<br>zu machen, außer nur Mob-Drops"
     RANDOMIZER_BIOMES:
       random:
         n: "Komplett zufällig"
-        l: "Enabled: Each action is random,<br>Disabled: Same biome = same shuffled biome"
+        l: "Aktiviert: Jede Aktion ist zufällig,<br>Deaktiviert: gleiches Biom = gleich gemischt"
     RANDOMIZER_MOBS:
       random:
         n: "Komplett zufällig"
-        l: "Enabled: Each action is random,<br>Disabled: Same mob = same shuffled mob"
+        l: "Aktiviert: Jede Aktion ist zufällig,<br>Deaktiviert: gleicher Mob = gleicher gemischter Mob"
     FORCE_COLLECT:
       times:
         n: "Zeiten"
-        l: "Time that will be randomly chosen<br>for collecting time and grace time"
+        l: "Zeit die zufällig ausgewählt wird<br>für das Sammeln von Zeit und Gnaden zeit"
       minCooldown:
         n: "Minimale Abklingzeit"
       maxCooldown:
@@ -545,7 +545,7 @@ items:
         n: "Max Force Zeit"
       objects:
         n: "Ziele"
-        l: "All goals that will randomly be<br>prompted to find/collect"
+        l: "Alle Ziele, die zufällig sein werden,<br>müssen gefunden/ gesammelt werden"
       items:
         n: "Force Item"
       biomes:
@@ -559,21 +559,21 @@ items:
     NO_DOUBLE_KILL:
       global:
         n: "Globale Wirkung"
-        l: "Last killed mob will be synced<br>for each player"
+        l: "Letzter getöteter Mob wird für jeden<br>Spieler synchronisiert"
     DAMAGER:
       mode:
         n: "Schadensereignis"
-        l: "The event for receiving damage"
+        l: "Das Ereignis zum Erhalt des Schadens"
       damage:
         n: "Schaden"
-        l: "Amount of damage"
+        l: "Höhe des Schadens"
       interval:
         n: "Intervall"
         l: "Abstand zwischen jedem Schadensticks<br>(wirkt sich nur auf Typ INTERVAL aus)"
     RIVALS_COLLECT:
       mode:
         n: "Suchtyp"
-        l: "All tasks that will randomly be<br>prompted to find/collect"
+        l: "Alle Ziele, die zufällig sein werden,<br>müssen gefunden/ gesammelt werden"
       items:
         n: "Items"
       biomes:
@@ -586,20 +586,20 @@ items:
     ROCKET:
       capacity:
         n: "Treibstoffkapazität"
-        l: "Amount of fuel before exploding"
+        l: "Treibstoffmenge vor dem Explodieren"
     VAMPIRE:
       startBlood:
         n: "Start Blut"
-        l: "Keep it high when starting<br>in day time"
+        l: "Halten Sie es hoch, wenn Sie<br>in der Tageszeit starten"
       maxBlood:
         n: "Blutkapazität"
-        l: "Maximal amount of blood that<br>can be held"
+        l: "Maximale Blutmenge, die<br>gehalten werden kann"
       healthToBlood:
         n: "HP - Blut"
-        l: "Amount of blood that is<br>drained from a mob per HP<br>after death"
+        l: "Menge an Blut, die einem Mob<br>pro HP nach dem Tod entzogen wird"
       bloodLoose:
         n: "Blutverlust"
-        l: "Blood drain amplifier that<br>is multiplied with sun level"
+        l: "Blutentzugsverstärker, der mit der Sonnenstufe multipliziert wird"
     TRAFFIC_LIGHT:
       min:
         n: "Minimale Dauer"
@@ -607,45 +607,45 @@ items:
         n: "Maximale Dauer"
       damage:
         n: "Schaden bei Rot"
-        l: "Punishment when moving over red!"
+        l: "Strafe bei Bewegung über rot"
       green:
         n: "Grünphase"
-        l: "Green light timings"
+        l: "Grünes Licht Timing"
       yellow:
         n: "Gelbphase"
-        l: "Yellow light timings"
+        l: "Gelbes Licht Timing"
       red:
         n: "Rotphase"
-        l: "Red light timings"
+        l: "Rotes Licht Timing"
     TRON:
       visible:
         n: "Sichtbarer Pfad"
-        l: "You trail is visible for<br>every player. Easier to avoid"
+        l: "Deine Spur ist für jeden Spieler<br>sichtbar. Einfacher zu vermeiden"
     DISABLED:
       block:
         n: "Blockkategorie"
-        l: "Disable specific block actions"
+        l: "Deaktiviere bestimmte Blockaktionen"
       break:
         n: "Abbauen deaktivieren"
       place:
         n: "Platzieren deaktivieren"
       interact:
         n: "Interaktionskategorie"
-        l: "Disable specific interaction actions"
+        l: "Deaktiviere spezielle Interaktionsaktionen"
       craft:
         n: "Werkbank deaktivieren"
       trade:
         n: "Handel deaktivieren"
       misc:
         n: "Sonstige Kategorie"
-        l: "Disable actions that didn't<br>fit into other categories"
+        l: "Aktionen deaktivieren, die nicht<br>in andere Kategorien passten"
       xp:
         n: "XP Einsammeln deaktivieren"
       items:
         n: "Item Einsammeln deaktivieren"
       damage:
         n: "Schaden"
-        l: "0 = disable actions,<br>20 = instant kill"
+        l: "0 = Aktionen deaktivieren,<br>20 = sofortiger Kill"
     MIRROR:
       hearts:
         n: "Synchronisiere Gesundheit"
@@ -655,113 +655,113 @@ items:
         n: "Synchronisiere Tränke"
       hotbar:
         n: "Synchronisiere Hotbar"
-        l: "This will not sync items,<br>only the selected slot"
+        l: "Dies wird keine Elemente synchronisieren,<br>nur den ausgewählten Slot"
     CHUNK_FLATTENER:
       delay:
         n: "Verzögerung"
-        l: "Time between each flattening"
+        l: "Zeit zwischen jeder Abflachung"
       shouldBreak:
         n: "Blockdrops"
-        l: "All broken blocks will drop<br>themself"
+        l: "Alle kaputten Blöcke werden sich selbst<br>fallen lassen"
     CHUNK_DECAY:
       delay:
         n: "Verzögerung"
-        l: "Time between each decay"
+        l: "Zeit zwischen jedem Verfall"
       percentage:
         n: "Prozentualer Verfall"
-        l: "Amount of blocks that will<br>randomly be removed from the chunk"
+        l: "Anzahl der Blöcke, die<br>zufällig aus dem Chunk entfernt werden"
       shouldBreak:
         n: "Blockdrops"
-        l: "All broken blocks will drop<br>themself"
+        l: "Alle kaputten Blöcke werden sich selbst<br>fallen lassen"
     CHUNK_CLEARER:
       breakAll:
         n: "Alle zerstören"
-        l: "Completely clear the chunk<br>instead only touched block type"
+        l: "Lösche den kompletten Chunk<br>anstaat nur berührten Blocktyp"
       shouldBreak:
         n: "Item Drop"
-        l: "All broken blocks will drop<br>themself"
+        l: "Alle kaputten Blöcke werden sich selbst<br>fallen lassen"
       bundle:
         n: "Gebündelte Items"
-        l: "All dropped item will be<br>merged on the broken block<br>to reduce lag"
+        l: "Alle fallengelassenen Gegenstände werden auf dem<br>zerbrochenen Block aufgesammelt,<br> um die Verzögerung zu verringern."
     ANVIL_CRUSHER:
       delay:
         n: "Amboss Verzögerung"
-        l: "Base and modifier spawn timings"
+        l: "Basis und Modifikator Spawn Timing"
       startDelay:
         n: "Basis"
       amplifierDelay:
         n: "Schneller pro DMG"
       density:
         n: "Amboss Dichte"
-        l: "Base and modifier spawn density"
+        l: "Basis und Modifikator Spawn Dichte"
       startDensity:
         n: "Basis"
       amplifierDensity:
         n: "Höher pro DMG"
       radius:
         n: "Amboss Radius"
-        l: "Anvil spawn radius"
+        l: "Amboss-Spawn-Radius"
       height:
         n: "Amboss Höhe"
-        l: "Anvil spawn height"
+        l: "Amboss-Spawn-Höhe"
     ITEM_DECAY:
       time:
         n: "Ablaufzeit"
-        l: "Time till item will disappear"
+        l: "Zeit bis Item gelöscht wird"
     AREA_TIMER:
       time:
         n: "Max. Zeit"
-        l: "Maximal allowed time in<br>each area"
+        l: "Maximal erlaubt Zeit <br>pro Gebiet"
       global:
         n: "Global Zählen"
-        l: "Maximal time will count<br>for all players"
+        l: "Maximale Zeit zählt<br>für alle Spieler"
       mode:
         n: "Flächenmodus"
-        l: "Define the area, which<br>will be limited"
+        l: "Definieren Sie den Bereich, welcher<br>begrenzt sein wird"
     BLOCK_ASYNC:
       hide:
         n: "Spieler Ausblenden"
-        l: "Add more difficulty by<br>completely hiding other players"
+        l: "Füge mehr Schwierigkeit hinzu, indem<br>du andere Spieler komplett versteckst"
     RIGHT_TOOL:
       starter:
         n: "Starter-Axt"
-        l: "Start with a wooden axe<br>to skip traveling for structures"
+        l: "Beginne mit einer Holzaxt, um<br>Reisen für Strukturen zu überspringen"
     COLLECT_BATTLE:
       maxSetTime:
         n: "Max. Set-Zeit"
-        l: "Maximal time players can<br>register a new item"
+        l: "Maximale Zeit, die Spieler einen neuen<br>Gegenstand registrieren können"
       cooldown:
         n: "Zeit zwischen Runden"
-        l: "Items acquired in this<br>state can not be registered"
+        l: "In diesem Status erworbene Gegenstände können<br>nicht registriert werden"
       bufferTime:
         n: "Zusätzliche Zeit"
-        l: "Time that will be added<br>to each registration time to<br>prevent instant locking"
+        l: "Zeit, die zu jeder Registrierungszeit hinzugefügt wird<br>, um eine sofortige Sperrung zu verhindern"
     RANDOMIZER_CHESTS:
       enchanting:
         n: "Zufällige Verzauberungen"
-        l: "Items can be randomly<br>enchanted"
+        l: "Items können zufällig<br>verzaubert werden"
     MINEFIELD_WORLD:
       density:
         n: "Dichte"
-        l: "Amount of generated mines"
+        l: "Anzahl generierter Minen"
     BLOCK_WALL:
       material:
         n: "Wandmaterial"
-        l: "This block will become<br>unbreakable. Do not use<br>tile blocks"
+        l: "Dieser Block wird unzerstörbar.<br>Nutze keine Wand Blöcke."
       delay:
         n: "Spawn Verzögerung"
-        l: "Time until the wall catch up"
+        l: "Zeit bis die Wand kommt"
     WORLD_DECAY:
       delay:
         n: "Schrittverzögerung"
-        l: "Time between each reduction<br>from visible blocks"
+        l: "Zeit zwischen jeder Reduzierung<br>von sichtbaren Blöcken"
       steps:
         n: "Schritte Zu 100%"
-        l: "Amount of reductions until<br>the full world is invisible"
+        l: "Zeit der Reduzierungen bis<br>die Welt komplett unsichtbar ist"
     LOW_VISION:
       amount:
         n: "Blockanzahl"
-        l: "Amount of visible blocks players<br>can choose on start"
+        l: "Anzahl sichtbarer Blöcke, die Spieler<br>beim Start auswählen können"
     CHUNK_SYNC:
       env:
         n: "Gespiegelte Umgebung"
@@ -769,24 +769,24 @@ items:
     DAMAGE_MULTIPLIER:
       multiplier:
         n: "Multiplikator"
-        l: "Damage = original damage * multiplier"
+        l: "Schaden = Originalschaden * Multiplikator"
     HIT_ORDER:
       wrongDamage:
         n: "Fehler Schaden"
-        l: "Amount of damage a player<br>receives when ignoring the order"
+        l: "Höhe des Schadens, den ein Spieler<br>erhält, wenn die Reihenfolge ignoriert wird"
       randomOrder:
         n: "Zufällige Reihenfolge"
-        l: "No set order. Each time<br>a random player is chosen"
+        l: "Keine feste Reihenfolge gesetzt. Jedes Mal, wird<br>ein zufälliger Spieler ausgewählt"
       visual:
         n: "Infoleiste"
-        l: "Display the player in<br>current order"
+        l: "Spieler in aktueller<br> Reihenfolge anzeigen"
     TICK_RATE:
       ticks:
         n: "Tick Geschwindigkeit"
-        l: "The range in with the<br>tick speed can change"
+        l: "Der Bereich in welchem<br> die Tick-Geschwindigkeit sich ändern kann"
       timings:
         n: "Shuffelrate"
-        l: "Timings between each<br>tick shuffling"
+        l: "Zeit zwischen<br>Tick-Änderungen"
       min:
         n: "Minimalgeschwindigkeit"
       max:
@@ -794,46 +794,46 @@ items:
     HP_DRAIN:
       percentage:
         n: "Prozent"
-        l: "How much health is drained<br>on each interval"
+        l: "Wie viel Herzen bei jedem Intervall<br> abgezogen werden"
       interval:
         n: "Intervall"
         l: "Timing for each health draining"
     MLG:
       delay:
         n: "Verzögerung"
-        l: "Minimum and maximum duration<br>between MLGs"
+        l: "Minimale und maximale Dauer<br>zwischen MLGs"
       minDelay:
-        n: "Min Delay"
+        n: "Minimale Verzögerung"
       maxDelay:
-        n: "Max Delay"
+        n: "Maximale Verzögerung"
       height:
-        n: "Height"
-        l: "Minimum and maximum height<br>in blocks to perform the MLG"
+        n: "Höhe"
+        l: "Minimale und Maximale Höhe<br>der MLGs in Blöcken"
       minHeight:
-        n: "Min Height"
+        n: "Minimale Höhe"
       maxHeight:
-        n: "Max Height"
+        n: "Maximale Höhe"
       hardMLGs:
-        n: "Hard MLGs"
-        l: "Activate to perform the hardest<br>MLGs. Only for skilled players!"
+        n: "Schwere MLGs"
+        l: "Aktivieren, um die härtesten MLGs durch<br>zu führen! Nur für erfahrene Spieler!"
     STACK_LIMIT:
       limit:
-        n: "Stack Limit"
-        l: "Amount of items that can be<br>hold in one slot"
+        n: "Maximale Stackgröße"
+        l: "Anzahl von Items die in einem<br>Slot gehalten werden können"
 tags:
   FUN:
-    l: "Easy Challenge with fun in focus"
+    l: "Einfache Challanges mit Spaß im Fokus"
   MEDIUM:
-    l: "Slightly more difficult than normal Minecraft but still very doable"
+    l: "Etwas schwieriger als normales Minecraft, aber<br>immer noch sehr machbar"
   HARD:
-    l: "Good for everyone searching a Challenge!"
+    l: "Gut für alle, die eine Herausforderung suchen!"
   RANDOMIZER:
-    l: "Parts of Minecraft are randomized and change each play through"
+    l: "Teile von Minecraft sind zufällig und<br>ändern sich immer"
   FORCE:
-    l: "You receive a task and are forced to finish it to proceed"
+    l: "Sie erhalten eine Aufgabe und sind<br>gezwungen, sie zu beenden, um fortzufahren"
   MULTIPLAYER:
-    l: "Needs 2 or more players. Perfect for a little party!"
+    l: "Benötigt 2 oder mehr Spieler. Perfekt<br>für eine kleine Party!"
   FREE:
-    l: "You can play this Challenge without premium!"
+    l: "Du kannst diese Challenge ohne Premium spielen!"
   BETA:
-    l: "Not finished yet. Lacks content and/or contains bugs"
+    l: "Noch nicht fertig, es fehlt der<br>Inhalt und/oder enthält Fehler"
