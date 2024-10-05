@@ -151,6 +151,9 @@ event:
   enable-flight: "<red>Diese Challenge muss \"allow flight\" in deinen <u>server.properties</u> aktiviert haben! Ansonsten werden Spieler durchgehend wegen fliegen gekickt."
   experimental:
     missing: "<red>Fehlende experimentelle Funktionen <u><input-1></u>! <click:run_command:'/experimental-features enable <input-1>'>Klicken Sie hier, um es zu aktivieren (erfordert ein Re-Connect)</click>"
+  border:
+    start: "<red>Click here to reset all your advancements (only new advancements add to border)"
+    stop: "<red>(Rejoin to remove the border)"
 #-----------------------------------------#
 #Items                  #
 #Messages only visible on GUI items    #
@@ -412,6 +415,9 @@ items:
     STACK_LIMIT:
       n: "Onestack (Stacklimit)"
       l: "Du kannst nur ein Item auf jedem Platz<br>in deinem Inventar halten!<br>Es kann bis zu 99 Items modifiziert werden"
+    BORDER:
+      n: "Border"
+      l: "A border will be created around you<br>which will grow with depending on your mode.<br>Can you handle the limited space?"
   chS:
     FLY:
       power:
@@ -820,6 +826,22 @@ items:
       limit:
         n: "Maximale Stackgröße"
         l: "Anzahl von Items die in einem<br>Slot gehalten werden können"
+    BORDER:
+      radius:
+        n: "Border Radius"
+        l: "Radius settings for the border"
+      start:
+        n: "Start Radius"
+        l: "The radius the border starts with"
+      step:
+        n: "Blocks Per Step"
+        l: "Amount of blocks the border<br>will grow each step"
+      mode:
+        n: "Border Mode"
+        l: "When should the border grow"
+      extra:
+        n: "Extra Settings"
+        l: "Effect depending on the mode:<br>- TIMED: Minutes between each step<br>- ACHIEVEMENT: None"
 tags:
   FUN:
     l: "Einfache Challanges mit Spaß im Fokus"
