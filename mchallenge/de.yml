@@ -65,8 +65,8 @@ command:
   noAddons: "<red>Keine MChallenge-Addons installiert! Du findest Addons unter <click:open_url:'https://mutils.de/ch/addons'><u>mutils.net/ch/addons</u></click>"
   notLoggedIn: "Verbinde deinen MUtils Account um alle Premium Funktionen freizuschalten"
   updateRule: "Die Regel <input-1> wurde zu <input-2> aktualisiert"
-  noRule: "<red>Bitte wählen Sie eine Regel, die gültig ist zum Aktualisieren!"
-  registered: "<grey>Challenge-Anweisung<blue>/<input-1></blue>"
+  noRule: "<red>Bitte wähle eine Regel, die gültig ist zum Aktualisieren!"
+  registered: "<grey>Challenge Befehl: <blue>/<input-1></blue>"
 #-----------------------------------------#
 #Events                  #
 #Messages that occur on multiple places  #
@@ -92,13 +92,13 @@ event:
     mlg: "<red><input-1> hat den MLG nicht geschafft!"
   mob_hunt:
     collect: "<green><input-1> gefunden <input-2>!"
-    success: "<green>Glückwunsch! Sie haben alle Mobs gefunden"
+    success: "<green>Glückwunsch! Du hast alle Mobs gefunden"
   item_hunt:
     collect: "<green><input-1> hat <input-2> gesammelt!"
-    success: "<green>Glückwunsch! Sie haben alle <input-1> items gefunden"
+    success: "<green>Glückwunsch! Du hast alle <input-1> items gefunden"
   death_hunt:
     collect: "<green><input-1> ist an <input-2> gestorben!"
-    success: "<green>Glückwunsch! Sie sind an allen <input-1> Toden gestorben"
+    success: "<green>Glückwunsch! Du bist an allen <input-1> Toden gestorben"
   itemDecay:
     time: "Verschwindet in"
     paused: "Anzeige pausiert (ausgewählt)"
@@ -147,13 +147,13 @@ event:
     damage: "<blue><input-1></blue> hat <blue><input-2> ♥</blue> Schaden <dark_gray>(<input-3>)</dark_gray> erhalten"
   hpDrain:
     current: "Aktuelle Gesundheit ⇒ <blue><input-1></blue>"
-    next: "Nächster Gesundheitsabfluss in <blue><input-1></blue> <dark_gray>(<input-2>%)"
+    next: "Nächster Herzenreduzierung in <blue><input-1></blue> <dark_gray>(<input-2>%)"
   enable-flight: "<red>Diese Challenge muss \"allow flight\" in deinen <u>server.properties</u> aktiviert haben! Ansonsten werden Spieler durchgehend wegen fliegen gekickt."
   experimental:
     missing: "<red>Fehlende experimentelle Funktionen <u><input-1></u>! <click:run_command:'/experimental-features enable <input-1>'>Klicken Sie hier, um es zu aktivieren (erfordert ein Re-Connect)</click>"
   border:
-    start: "<red>Click here to reset all your advancements (only new advancements add to border)"
-    stop: "<red>(Rejoin to remove the border)"
+    start: "<red>Drücke hier um all deine Erfolge zurückzusetzen (nur neue Erfolge zählen zur Border)"
+    stop: "<red>(Rejoin um die Border zu entfernen)"
 #-----------------------------------------#
 #Items                  #
 #Messages only visible on GUI items    #
@@ -183,7 +183,7 @@ items:
   settings:
     language:
       n: "Standardsprache"
-      l: "Die meisten Nachrichten passen sich automatisch an deine Minecraft-Sprache<br>an. Wenn Ihre Sprache<br>nicht unterstützt wird oder in globalen Nachrichten<br>wird diese Fallbacksprache verwendet"
+      l: "Die meisten Nachrichten passen sich automatisch an deine Minecraft-Sprache<br>an. Wenn deine Sprache<br>nicht unterstützt wird oder in globalen Nachrichten<br>wird diese Fallbacksprache verwendet"
       s: "Aktuell: "
     compact:
       n: "Challenge-Anzeige"
@@ -417,7 +417,7 @@ items:
       l: "Du kannst nur ein Item auf jedem Platz<br>in deinem Inventar halten!<br>Es kann bis zu 99 Items modifiziert werden"
     BORDER:
       n: "Border"
-      l: "A border will be created around you<br>which will grow with depending on your mode.<br>Can you handle the limited space?"
+      l: "Eine Border wird um dich herum erstellt,<br>welche wächst je nach aktivem Modus.<br>Kommst du im kleinen Bereich klar?"
   chS:
     FLY:
       power:
@@ -829,19 +829,19 @@ items:
     BORDER:
       radius:
         n: "Border Radius"
-        l: "Radius settings for the border"
+        l: "Radius Einstellungen für die Border"
       start:
         n: "Start Radius"
-        l: "The radius the border starts with"
+        l: "Der Radius, mit welchem die Border startet"
       step:
-        n: "Blocks Per Step"
-        l: "Amount of blocks the border<br>will grow each step"
+        n: "Blöcke pro Schritt"
+        l: "Menge an Blöcken, welche die<br>Border wächst pro Schritt"
       mode:
-        n: "Border Mode"
-        l: "When should the border grow"
+        n: "Border Modus"
+        l: "Wann soll die Border wachsen"
       extra:
-        n: "Extra Settings"
-        l: "Effect depending on the mode:<br>- TIMED: Minutes between each step<br>- ACHIEVEMENT: None"
+        n: "Extra Einstellungen"
+        l: "Effekt hängt vom Modus ab:<br>- TIMED: Minuten zwischen Schritten<br>- ACHIEVEMENT: Keinen"
 tags:
   FUN:
     l: "Einfache Challanges mit Spaß im Fokus"
