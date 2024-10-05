@@ -8,7 +8,7 @@
 #------------------------------------------------------------#
 creator: MUtils
 version: 1.0.0
-test: "Test"
+test: "Prueba"
 #-----------------------------------------#
 #Common Translations           #
 #Translation keys that persist in every  #
@@ -22,7 +22,7 @@ common:
   click: "Clic"
   sneak: "Disparar"
   none: "Ninguna"
-  button: "Button"
+  button: "Botón"
 #-----------------------------------------#
 #Command Responses            #
 #Every command supports MiniMessages   #
@@ -54,19 +54,19 @@ event:
   animation: "Velocidad animación"
   syntax: "Sintaxis"
   forcedTwoDigits: "Forzar 2 dígitos"
-  visibleOnNull: "Visible on Null"
+  visibleOnNull: "Visible en nulo"
   spaceInfo: "Use _ to add spaces before and after your message"
-  clickToCopy: "Click to copy: <blue><input-1>"
+  clickToCopy: "Haga clic para copiar: <blue><input-1>"
   finish: "Finalizado"
-  playtime: "Play Time: "
-  endSuccess: "Challenge succeed!" #v1
+  playtime: "Tiempo de juego: "
+  endSuccess: "¡Desafío exitoso!" #v1
   kick: "<blue><st>                            </st>[ <b>Game Over</b> ]<st>                            </st></blue>\n\n<color:#b33b3b>≫<red> You died and got kicked </red>≪</color>\n<gold>Thanks for playing!</gold>\n\n<blue><st>                            </st>[ <b>Game Over</b> ]<st>                            </st></blue>"
   ban: "§9§m                            §9[ §lGame Over§9 ]§m                            §r\n\n§c≫ You died and got kicked ≪§r\n§6Thanks for playing!§r\n\n§9§m                            §9[ §lGame Over§9 ]§m                            " #Legacy styling is needed, because minecraft's ban storing method is outdated...
-  location: "Death Point: "
-  exactLocation: "Exact Location"
-  world: "World"
+  location: "Punto de muerte: "
+  exactLocation: "Ubicación exacta"
+  world: "Mundo"
   backPrompt: "<gold>Teleport Back <gray>(click)"
-  gameOver: "Game Over"
+  gameOver: "Fin del Juego"
   timeout:
     head: "Time Over"
     sub: "The time is up"
@@ -103,13 +103,13 @@ items:
     n: "Timer Goals"
     l: "Automate your timer with<br>certain events to start<br>or stop it"
   isActive:
-    n: "Visibility"
+    n: "Visibilidad"
     l: "Global timer is always rendered<br>over personal timers"
     s: "Visible"
   direction:
     n: "Timer Direction"
     l: "Define your timer direction.<br>Hitting time zero will stop it"
-    s: "Count Up"
+    s: "Conteo directo"
   createDesign:
     n: "Nuevo diseño"
     l: "Create a new design from<br>scratch. Animations are not<br>animated in the editor"
