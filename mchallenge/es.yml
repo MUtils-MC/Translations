@@ -54,8 +54,8 @@ command:
     setSize: "<grey>Cambiado el tamaño de la mochila a filas <blue><input-1></blue>"
     reset: "<red>¡Despejadas todas las mochilas, incluida la global!"
   hide:
-    hide: "<grey>You are now <red>hidden"
-    show: "<grey>You are now <green>visible"
+    hide: "<grey> Ahora eres <red> oculto"
+    show: "<grey> Ahora eres <green> visible"
     hideMultiple: "<grey>You have <red>hidden</red> <input-1> player/s"
     showMultiple: "<grey>You have <green>shown</green> <input-1> player/s"
   debug: "<grey>Switched debug mode to <blue><input-1>"
