@@ -582,10 +582,13 @@ items:
         l: "Alle Ziele, die zufällig sein werden,<br>müssen gefunden/ gesammelt werden"
       items:
         n: "Items"
+        l: "Include all items"
       biomes:
         n: "Biome"
+        l: "Include all biomes"
       mobs:
         n: "Mobs"
+        l: "Include all mobs"
       joker:
         n: "Joker"
         l: "Anzahl der Joker, um eine Aufgabe zu überspringen"
