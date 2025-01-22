@@ -7,7 +7,7 @@
 #i is a number from 0 to the message max            #
 #------------------------------------------------------------#
 creator: MUtils
-version: 1.0.0
+version: 113
 #-----------------------------------------#
 #Common Translations           #
 #Translation keys that persist in every  #
@@ -66,6 +66,7 @@ command:
   notLoggedIn: "Connect your MUtils Account to unlock Premium Features"
   updateRule: "The rule <input-1> was updated to <input-2>"
   noRule: "<red>Please select a valid rule to change!"
+  registered: "<grey>Challenge Command: <blue>/<input-1></blue>"
 #-----------------------------------------#
 #Events                  #
 #Messages that occur on multiple places  #
@@ -88,12 +89,16 @@ event:
     noDoubleKill: "<red><input-1> tué la même foule deux fois de suite !"
     hitOrder: "<red><input-1> n'avait pas le droit d'endommager une foule"
     crushedAnvils: "<red><input-1> was hit by an anvil!"
-  mobHunt:
-    collect: "<green><input-1> trouvé <input-2>!"
-    success: "<green>Félicitations ! Vous avez trouvé tous les mobs"
-  itemHunt:
-    collect: "<green><input-1> a collecté <input-2>!"
+    mlg: "<red><input-1> failed the MLG!"
+  mob_hunt:
+    collect: "<green><input-1> found <input-2>!"
+    success: "<green>Congratulations! You found all mobs"
+  item_hunt:
+    collect: "<green><input-1> collected <input-2>!"
     success: "<green>Congratulations! You found all <input-1> items"
+  death_hunt:
+    collect: "<green><input-1> died to <input-2>!"
+    success: "<green>Congratulations! You died to all <input-1> deaths"
   itemDecay:
     time: "Décroissance en"
     paused: "Affichage en pause (sélectionné)"
@@ -143,6 +148,14 @@ event:
   hpDrain:
     current: "Current Health ⇒ <blue><input-1></blue>"
     next: "Next health draining in <blue><input-1></blue> <dark_gray>(<input-2>%)"
+  enable-flight: "<red>This Challenge requires to allow flight in your <u>server.properties</u>! Otherwise players will be kicked spontaneously for flying."
+  experimental:
+    missing: "<red>Missing experimental features <u><input-1></u>! <click:run_command:'/experimental-features enable <input-1>'>Click here to enable it (requires rejoin)</click>"
+  border:
+    start: "<red>Click here to reset all your advancements (only new advancements add to border)"
+    stop: "<red>(Rejoin to remove the border)"
+  inTime:
+    noTime: "<red>The player <input-1> run out of time!"
 #-----------------------------------------#
 #Items                  #
 #Messages only visible on GUI items    #
@@ -171,8 +184,8 @@ items:
       n: "Settings"
   settings:
     language:
-      n: "Language"
-      l: "Changing the language will affect all<br>messages and texts in MChallenge.<br>Help us to improve the translations!"
+      n: "Default Language"
+      l: "Most message will automatically adapt to<br>your Minecraft language. If your language<br>is not supported or on global messages<br>this fallback language is used"
       s: "Current: "
     compact:
       n: "Challenge Display"
@@ -395,6 +408,18 @@ items:
     HP_DRAIN:
       n: "Health Drainer"
       l: "Every few minutes your max health will be<br>reduced by a given percentage.<br>Better be quick!"
+    DEATH_HUNT:
+      n: "Death Hunt"
+      l: "Die to all given deaths in a specific order<br>to finish!<br>Use /deathhunt to modify"
+    MLG:
+      n: "MLG Challenge"
+      l: "Once a while you are forced to perform<br>a random MLG! Can you survive the fall?"
+    STACK_LIMIT:
+      n: "Onestack (Stack limit)"
+      l: "You can only hold one item on each slot<br>in your inventory!<br>Can be modified up to 99 items"
+    BORDER:
+      n: "Border"
+      l: "A border will be created around you<br>which will grow with depending on your mode.<br>Can you handle the limited space?"
   chS:
     FLY:
       power:
@@ -503,6 +528,9 @@ items:
       random:
         n: "Full Random"
         l: "Enabled: Each action is random,<br>Disabled: Same mob = same drop"
+      itemMode:
+        n: "Item Mode"
+        l: "Activate to randomize all items<br>except only mob drops"
     RANDOMIZER_BIOMES:
       random:
         n: "Full Random"
@@ -556,10 +584,13 @@ items:
         l: "All tasks that will randomly be<br>prompted to find/collect"
       items:
         n: "Items"
+        l: "Include all items"
       biomes:
         n: "Biomes"
+        l: "Include all biomes"
       mobs:
         n: "Mobs"
+        l: "Include all mobs"
       joker:
         n: "Joker"
         l: "Amount of joker to skip a task"
@@ -778,6 +809,44 @@ items:
       interval:
         n: "Interval"
         l: "Timing for each health draining"
+    MLG:
+      delay:
+        n: "Délai"
+        l: "Minimum and maximum duration<br>between MLGs"
+      minDelay:
+        n: "Min Delay"
+      maxDelay:
+        n: "Max Delay"
+      height:
+        n: "Height"
+        l: "Minimum and maximum height<br>in blocks to perform the MLG"
+      minHeight:
+        n: "Min Height"
+      maxHeight:
+        n: "Max Height"
+      hardMLGs:
+        n: "Hard MLGs"
+        l: "Activate to perform the hardest<br>MLGs. Only for skilled players!"
+    STACK_LIMIT:
+      limit:
+        n: "Stack Limit"
+        l: "Amount of items that can be<br>hold in one slot"
+    BORDER:
+      radius:
+        n: "Border Radius"
+        l: "Radius settings for the border"
+      start:
+        n: "Start Radius"
+        l: "The radius the border starts with"
+      step:
+        n: "Blocks Per Step"
+        l: "Amount of blocks the border<br>will grow each step"
+      mode:
+        n: "Border Mode"
+        l: "When should the border grow"
+      extra:
+        n: "Extra Settings"
+        l: "Effect depending on the mode:<br>- TIMED: Minutes between each step<br>- ACHIEVEMENT: None"
 tags:
   FUN:
     l: "Easy Challenge with fun in focus"
