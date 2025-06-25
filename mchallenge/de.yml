@@ -407,7 +407,7 @@ items:
       l: "Verwandel Minecraft in ein Rhythmspiel!<br>Jede Aktion muss auf den Beat geschehen<br>um dem Weltrhythmus zu folgen"
     HP_DRAIN:
       n: "Gesundheitsdrainer"
-      l: "Alle paar Minuten wird deine maximale Gesundheit<br>um einen bestimmten Prozentsatz reduziert.<br>Sei besser schnell!"
+      l: "Alle paar Minuten wird deine maximale Gesundheit<br>um einen bestimmten Prozentsatz verringert.<br>Besser schnell sein!"
     DEATH_HUNT:
       n: "Todesjagd"
       l: "Sterbe zu allen vorgegeben Tode, die in einer bestimmten Reihenfolge<br>sind, um zu bestehen!<br>Nutze /deathhunt um Modifikationen zu tätigen"
@@ -416,7 +416,7 @@ items:
       l: "Ab und an bist du gezwungen einen<br>zufälligen MLG auszuführen! <br> Kannst du den Fall überleben?"
     STACK_LIMIT:
       n: "Onestack (Stacklimit)"
-      l: "Du kannst nur ein Item auf jedem Platz<br>in deinem Inventar halten!<br>Es kann bis zu 99 Items modifiziert werden"
+      l: "Du kannst nur einen Gegenstand auf jedem Platz<br>in deinem Inventar halten!<br>Kann bis zu 99 Items modifiziert werden"
     BORDER:
       n: "Border"
       l: "Eine Border wird um dich herum erstellt,<br>welche wächst je nach aktivem Modus.<br>Kommst du im kleinen Bereich klar?"
