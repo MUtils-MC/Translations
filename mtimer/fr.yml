@@ -103,7 +103,7 @@ items:
     n: "Timer Goals"
     l: "Automate your timer with<br>certain events to start<br>or stop it"
   isActive:
-    n: "Visibility"
+    n: "Visibilité"
     l: "Global timer is always rendered<br>over personal timers"
     s: "Visible"
   direction:
