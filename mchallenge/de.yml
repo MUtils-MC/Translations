@@ -488,7 +488,7 @@ items:
     ONE_BIOME:
       delay:
         n: "Verzögerung"
-        l: "Die Zeit zwischen den<br>Welt-Swaps"
+        l: "Die Zeit zwischen dem<br>Welten-Wechsel"
     BOOST_UP:
       radius:
         n: "Effekt Radius"
@@ -587,10 +587,10 @@ items:
         l: "Alle Items aufnehmen"
       biomes:
         n: "Biome"
-        l: "Alle Biome aufnehmen"
+        l: "Alle Biome einbeziehen"
       mobs:
         n: "Mobs"
-        l: "Alle Mobs aufnehmen"
+        l: "Alle Mobs einbeziehen"
       joker:
         n: "Joker"
         l: "Anzahl der Joker, um eine Aufgabe zu überspringen"
@@ -601,7 +601,7 @@ items:
     VAMPIRE:
       startBlood:
         n: "Start Blut"
-        l: "Halten Sie es hoch, wenn Sie<br>in der Tageszeit starten"
+        l: "Halte es hoch, wenn du<br>in der Tageszeit startest"
       maxBlood:
         n: "Blutkapazität"
         l: "Maximale Blutmenge, die<br>gehalten werden kann"
